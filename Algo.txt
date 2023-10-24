@@ -1,0 +1,9 @@
+Alogorithme sur l'écouteur input du champ de recherche
+
+POUR chaque élément i DANS listUserName FAIRE
+	SI le texte de listUserName[i] ne contient pas input.value
+        	CACHER listUserName[i]
+	SINON
+        	AFFICHER listUserName[i]
+   	FIN SI
+FIN POUR

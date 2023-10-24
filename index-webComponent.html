@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Liste filtré">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="./favicon/android-chrome-512x512.png">
+    <title>Accueil</title>
+    <!-- Ajouter favicon 260/260-->
+</head>
+
+<body>
+    <div class="list-search">
+        <label for="search">Search for names:</label>
+        <input type="text" id="search" placeholder="Search for names.." aria-label="Search name">
+    </div>
+    <ul class="list-result" id="users" role="list name">
+    <filterable-list 
+        item-0="Adèle"
+        item-1="Agnes"
+        item-2="Billy"
+        item-3="Bob"
+        item-4="Calvin"
+        item-5="Christina"
+        item-6="Cindy">
+    </filterable-list>
+</ul>
+    <script src="./scripts/webComponent.js"></script>
+</body>
+
+</html>
