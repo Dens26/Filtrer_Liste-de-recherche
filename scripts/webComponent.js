@@ -1,7 +1,6 @@
 class UserFilter extends HTMLElement {
     constructor() {
-        super();
-
+        super();s
     }
     connectedCallback() {
         // Récupération des attributs
